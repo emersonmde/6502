@@ -1,0 +1,410 @@
+{
+  "uuid": "d708bc259a4d1758de12c07485063de7",
+  "path": "Offline/6502",
+  "name": "6502",
+  "content": "",
+  "created_at": "2023-06-30 11:55:22",
+  "updated_at": "2023-07-01 22:22:21",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "22d1ee2b8dd9ccabc1f740fd746d4d17",
+      "title": "6502_UART_REV4",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f0a8ae9ebba744f18c29c7c407e65ed8": 1,
+        "40d63a10d4de48e8844600a831f0d96a": 1,
+        "3b36fbf3293f4113936e58d2a376b177": 1,
+        "4034732420f74a309c7c7ee0bb683055": 1,
+        "0d8b9a8585f141d98e793ca52c12e87a": 1,
+        "bb009484ef804a24ac5d18c54b249586": 3,
+        "24eeb2ceca08480b92b847b6a310acda": 8,
+        "e0b0d01b6e0d44dbab9db0ad79a427bc": 1,
+        "1674e3e6ac6b40a0b4672f41ae953f26": 1,
+        "a3b1a1e855304c5296ea015de05865ae": 1,
+        "0f1a2c4d2ffb43a88d210f2b6b29f5a9": 1,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 2,
+        "cce4a36e8f45437092fa2e81ef59ec6d": 1,
+        "bacf5553da266925c44144ce5fdc0a97": 1,
+        "b3ae2f946ec28ceab3eddb0dfe90ae62": 1,
+        "e8227dd34355fb317f612b5079bf676c": 1,
+        "daa3cf3493c84fa3b0b6a6d427d23f0b": 1,
+        "12b4e648b6e847eea815393fc9bc2a8c": 1,
+        "96635831193d4a2083dae5fbd1fe875b": 1,
+        "e345fb703c7fe95ae55b93c7b7c9408d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1uF",
+          3,
+          "C0603",
+          "C1,C7,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1uF",
+          4,
+          "C0603",
+          "C2,C4,C5,C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "20pf",
+          1,
+          "C0603",
+          "C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "SB140",
+          2,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "DC005-2.0MM",
+          1,
+          "DC-IN-TH_DC005",
+          "DC1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SOFNG",
+            "BOM_Manufacturer Part": "DC005-2.0MM",
+            "BOM_Supplier Part": "C111567",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "daa3cf3493c84fa3b0b6a6d427d23f0b"
+          }
+        ],
+        [
+          "HEADER 1x16",
+          1,
+          "HDR-TH_16P-P2.54-V-F-1",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*16P母",
+            "BOM_Supplier Part": "C66987",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a249de7d161d4ae894913a5559e361f0",
+            "uuid": "b3ae2f946ec28ceab3eddb0dfe90ae62"
+          }
+        ],
+        [
+          "HEADER 1x8",
+          1,
+          "HDR-TH_8P-P2.54-V-F-1",
+          "H2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*8P母环保",
+            "BOM_Supplier Part": "C27438",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "366e1b46b2ba4833900571d9613df11d",
+            "uuid": "bacf5553da266925c44144ce5fdc0a97"
+          }
+        ],
+        [
+          "HEADER 1x5",
+          1,
+          "HEADER-HEADER-FEMALE-2.54_1X5",
+          "H3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "05b140437ffd48379b55709503e1e207",
+            "uuid": "96635831193d4a2083dae5fbd1fe875b"
+          }
+        ],
+        [
+          "DB9F",
+          1,
+          "DB9-TH_DB9F_C9900018961",
+          "J1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900018961",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "DB9F",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "aba265db5b3245cfa9ea3d344772a875",
+            "uuid": "0f1a2c4d2ffb43a88d210f2b6b29f5a9"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "BOM_Manufacturer": "LONTECH(厦门龙特)",
+            "BOM_Manufacturer Part": "LCM1602K-NSW-BBW",
+            "BOM_Supplier Part": "C83275",
+            "BOM_Supplier": "LCSC",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "12b4e648b6e847eea815393fc9bc2a8c"
+          }
+        ],
+        [
+          "1k",
+          3,
+          "R0603",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "R_3386P_US",
+          1,
+          "RES-ADJ-TH_3386P",
+          "RP1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "BOM_value(Ω)": "10K",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "e0b0d01b6e0d44dbab9db0ad79a427bc"
+          }
+        ],
+        [
+          "RESET",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50",
+          "SW1",
+          {
+            "BOM_Supplier Part": "C59980",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "button6*6*8.5",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9096c4e6bc254754b0b895e85df2faca",
+            "uuid": "e8227dd34355fb317f612b5079bf676c"
+          }
+        ],
+        [
+          "W65C02",
+          1,
+          "W65C02",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "bebfdcf5240f4624a32802f088f3cd0a",
+            "uuid": "0d8b9a8585f141d98e793ca52c12e87a"
+          }
+        ],
+        [
+          "AT28C256",
+          1,
+          "PDIP-28_L37.0-W13.5-P2.54-LS15.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C612358",
+            "BOM_Manufacturer": "MICROCHIP(美国微芯)",
+            "BOM_Manufacturer Part": "AT28C256-15DM/883-815",
+            "puuid": "cf2846522daf4845a6d8d8b8b2e17553",
+            "uuid": "f0a8ae9ebba744f18c29c7c407e65ed8"
+          }
+        ],
+        [
+          "62256",
+          1,
+          "HM62256B",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "7407eb6a260347aeaae9dd96d074c33f",
+            "uuid": "40d63a10d4de48e8844600a831f0d96a"
+          }
+        ],
+        [
+          "WD65C22",
+          1,
+          "DIP-40_L52.0-W13.7-P2.54-LS15.2-BL",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ffc99a9154af47da9e011f86dc970875",
+            "uuid": "3b36fbf3293f4113936e58d2a376b177"
+          }
+        ],
+        [
+          "W65C51N",
+          1,
+          "DIP-28_L37.0-W13.8-P2.54-LS15.8-BL",
+          "U6",
+          {
+            "BOM_Manufacturer": "Western Design Center",
+            "BOM_Manufacturer Part": "W65C51N6TPG-14",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "955-W65C51N6TPG-14",
+            "puuid": "37ecd6b22ce54a5db9635b69cb498c86",
+            "uuid": "1674e3e6ac6b40a0b4672f41ae953f26"
+          }
+        ],
+        [
+          "MAX232",
+          1,
+          "PDIP-16_L19.7-W6.6-P2.54-LS7.6-BL",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C242610",
+            "BOM_Manufacturer": "ADI(亚德诺)/MAXIM(美信)",
+            "BOM_Manufacturer Part": "MAX232AEPE+",
+            "puuid": "821e1003094946d6a9513c6b7b54fe35",
+            "uuid": "a3b1a1e855304c5296ea015de05865ae"
+          }
+        ],
+        [
+          "74HC00",
+          1,
+          "DIP-14_L20.0-W7.6-P2.54-LS7.6-BL",
+          "U8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI(德州仪器)",
+            "BOM_Manufacturer Part": "SN74HC00N",
+            "BOM_Supplier Part": "C2902",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "dea0bb4b355444a8a0eca19a5486a7f8",
+            "uuid": "e345fb703c7fe95ae55b93c7b7c9408d"
+          }
+        ],
+        [
+          "1Mhz",
+          1,
+          "FULL CAN OSCILLATOR CRYSTAL",
+          "X1",
+          {
+            "BOM_Manufacturer": "CTS-Frequency Controls",
+            "BOM_Manufacturer Part": "MXO45-3C-7M372800",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "110-MXO45-3C-7M372800-ND",
+            "puuid": "b5e642e88f01406684fde5a9e9738b8b",
+            "uuid": "4034732420f74a309c7c7ee0bb683055"
+          }
+        ],
+        [
+          "1.8432MHz",
+          1,
+          "OSC-TH_L10.0-W4.5-P5.00",
+          "X2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X49UD18432MSD2SC-1",
+            "BOM_Supplier Part": "C2179",
+            "puuid": "c9c6eea978e64b23889483181a791a9e",
+            "uuid": "cce4a36e8f45437092fa2e81ef59ec6d"
+          }
+        ]
+      ],
+      "updateTime": 1688264541,
+      "createTime": 1688223589,
+      "histories": [],
+      "created_at": "2023-07-01 10:59:49",
+      "updated_at": "2023-07-01 22:22:21"
+    },
+    {
+      "uuid": "14894aa34aa79ff7985c9da5273b7b5b",
+      "puuid": "d708bc259a4d1758de12c07485063de7",
+      "title": "PCB_6502_UART_REV4",
+      "filename": "PCB_6502_UART_REV4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a249de7d161d4ae894913a5559e361f0": 1,
+        "366e1b46b2ba4833900571d9613df11d": 1,
+        "05b140437ffd48379b55709503e1e207": 1,
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 8,
+        "7407eb6a260347aeaae9dd96d074c33f": 1,
+        "1337670005c6484c999f9b4c272ee9fe": 1,
+        "9096c4e6bc254754b0b895e85df2faca": 1,
+        "60a676d313ae48718a81c380b73dfe4f": 2,
+        "aba265db5b3245cfa9ea3d344772a875": 1,
+        "398691f1f785460098bbe5ee6590333c": 3,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 1,
+        "bebfdcf5240f4624a32802f088f3cd0a": 1,
+        "cf2846522daf4845a6d8d8b8b2e17553": 1,
+        "ffc99a9154af47da9e011f86dc970875": 1,
+        "37ecd6b22ce54a5db9635b69cb498c86": 1,
+        "821e1003094946d6a9513c6b7b54fe35": 1,
+        "b5e642e88f01406684fde5a9e9738b8b": 1,
+        "c9c6eea978e64b23889483181a791a9e": 1,
+        "dea0bb4b355444a8a0eca19a5486a7f8": 1
+      },
+      "BOM": [],
+      "updateTime": 1688264496,
+      "createTime": 1688178377,
+      "histories": [],
+      "created_at": "2023-06-30 22:26:17",
+      "updated_at": "2023-07-01 22:21:36"
+    }
+  ],
+  "sort": [
+    "dc8ce35e79b9cbe2f5cc93c6b65204f6",
+    "22d1ee2b8dd9ccabc1f740fd746d4d17"
+  ],
+  "title": "6502",
+  "foldername": "6502",
+  "schfilename": "6502.json",
+  "schfilemtime": 1688264541195
+}
