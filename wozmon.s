@@ -1,5 +1,5 @@
   .org $8000
-  .org $ff00
+  .org $fef0
 
 XAML  = $24                            ; Last "opened" location Low
 XAMH  = $25                            ; Last "opened" location High
@@ -37,8 +37,7 @@ ESCAPE:
                 JSR     ECHO           ; Output it
 
 GETLINE:
-                LDA     #$0D           ; Send CR
-                JSR     ECHO
+                JSR     NEWLINE        ; Output CR/LF
 
                 LDY     #$01           ; Initialize text index
 BACKSPACE:      DEY                    ; Back up text index
@@ -132,8 +131,7 @@ SETADR:         LDA     L-1,X          ; Copy hex data to
 
 NXTPRNT:
                 BNE     PRDATA         ; NE means no address to print
-                LDA     #$0D           ; CR
-                JSR     ECHO           ; Output it
+                JSR     NEWLINE        ; Output CR/LF
                 LDA     XAMH           ; 'Examine index' high-order byte
                 JSR     PRBYTE         ; Output it in hex format
                 LDA     XAML           ; Low-order 'examine index' byte
@@ -186,9 +184,24 @@ TXDELAY:        DEC                    ; Decrement A
                 BNE     TXDELAY        ; Until A gets to 0
                 PLA                    ; Restore A
                 RTS                    ; Return
+              
+NEWLINE:
+                LDA     #$0D           ; CR
+                JSR     ECHO           ; Output it
+                LDA     #$0A           ; LF
+                JSR     ECHO           ; Output it
+                RTS
 
   .org $FFFA
 
                 .word   $0F00          ; NMI vector
                 .word   RESET          ; RESET vector
                 .word   $0000          ; IRQ vector
+
+; 0:A9 0 AA 20 D7 FF E8 8A 4C 2 0
+
+; No loop
+; 0:A9 0 AA 20 D7 FF E8 D0 F7 0
+
+; 0:A9 0 AA 20 D8 FF E8 8A 4C 2 0
+; 0:A9 0 AA 20 F0 FE E8 8A 4C 2 0
