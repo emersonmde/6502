@@ -9,7 +9,7 @@ This repository holds a collection of utilities, tools, and programs designed fo
 The repository consists of:
 
 - **pcb:** An EasyEDA project that contains the schematic and PCB I created based off of Ben Eater's design
-- **wozmon:** A selection of programs written to run on this unique hardware setup. This includes Wozmon, the monitor program originally written for the Apple I.
+- **wozmon:** The monitor program originally written for the Apple I updated to support this architecture
 - **part*** Other random programs or notes at different stages of the project
 
 ## Project Basis
